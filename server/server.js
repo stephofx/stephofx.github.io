@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 // prevents logs from polluting test results
 if (!module.parent) app.use(morgan('combined'));
 
-app.use(basePath, express.static(path.join(__dirname, '../public')));
+app.use(basePath, express.static(path.join(__dirname, '../dist')));
 
 routes(app); // initialize routes
 
