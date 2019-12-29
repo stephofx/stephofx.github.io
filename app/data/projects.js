@@ -1,42 +1,30 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc: 'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'Chopin Concerto No. 2',
+    subtitle: 'Performance with Fort Bend Symphony Orchestra',
+    url: 'https://www.youtube.com/embed/H2vS7aMqqRk',
+    date: '2019-02-25',
+    desc: 'Winner\'s Recital for the Houston Music Teacher\'s Association '
+      + 'Concerto Competition. Performed with the Fort Bend Symphony Orchestra'
+      + ' at Stafford Centre.',
   }, {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc: 'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    title: 'Livestream #11 - Rachmaninoff Sonata No. 1 and Petrushka',
+    date: '2019-09-14',
+    url: 'https://www.youtube.com/embed/2eFdoLEZffo',
+    desc: 'One of Facebook Livestreams that I do every month. This one was in '
+      + 'preparation for officially recording these pieces.',
   }, {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc: 'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+    title: 'Livestream #5 - Chopin Concerto and Ravel\'s Ondine',
+    url: 'https://youtube.com/embed/cJnnnsKMRvA',
+    date: '2019-01-05',
+    desc: 'Facebook Livestream in preparation for the February FBSO Concert. ',
   }, {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/project/catdetector/',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc: 'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-     + 'to continue hosting.',
+    title: 'Liszt Un Sospiro',
+    url: 'https://www.youtube.com/embed/uEaAoyMEJSc',
+    date: '2017-01-15',
+    desc: 'Official recording of Liszt\'s Un Sospiro Etude for the American Protege '
+     + 'International Piano and Strings Competition.',
   },
 ];
 
