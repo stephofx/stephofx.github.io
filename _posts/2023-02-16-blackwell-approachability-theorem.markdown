@@ -2,7 +2,7 @@
 layout: post
 title: "Blackwell Approachability Theorem"
 date: 2023-02-16 23:57:00 -0500
-categories: game-theory
+tags: game-theory
 katex: True
 ---
 
