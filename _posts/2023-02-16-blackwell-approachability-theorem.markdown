@@ -8,13 +8,14 @@ katex: True
 
 ## Vector-Valued Zero-Sum Games and Approachability
 
-This covers David Blackwell's famous approachability theorem. It is an
-extension of von Neumann's Minimax Theorem to the setting of
-vector-valued payoffs. Blackwell's approachbility theorem is important
+This covers David Blackwell's famous approachability theorem.  It is an extension of von Neumann's Minimax Theorem to the setting of vector-valued payoffs, 
+where he shows that while the minimax theorem does not hold for a one-shot vectorial payoff game, there exists a randomized strategy such that the payoffs can converge to some target set.
+Blackwell's approachbility theorem is important
 because it has very deep connections to online learning and regret
 minimization. As Vohra states in a
 [tutorial](https://www.youtube.com/live/i8j7fUN7_EU?feature=share) on Blackwell approachability, approachability implies Hannan
-no-regret, which implies no internal regret, which implies calibration.
+no-regret, which implies no internal regret, which implies calibration. But as [Abernathy et al. 2011](http://proceedings.mlr.press/v19/abernethy11b/abernethy11b.pdf#page=19&zoom=100,84,446)
+states in their paper, approachability seems to be unequivocally more powerful as a concept than regret minimization. I discuss applications in a later post.
 
 ### A small example
 
@@ -162,6 +163,8 @@ K_{t}^{2} & \le K_{t-1}^{2}+4R^{2}\\
 
 And thus
 $$d(\bar{\ell}_{T},S)\le\frac{2R}{\sqrt{T}}=O(\sqrt{\frac{1}{T}})$$. ◻
+
+### References
 
 Philippe Rigollet. (2015). BLACKWELL'S APPROACHABILITY. MIT
 OpenCourseWare. Retrieved February 16, 2023, from
