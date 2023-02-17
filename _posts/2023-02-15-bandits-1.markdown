@@ -1,0 +1,137 @@
+---
+layout: post
+title: "Stochastic Bandits: Motivation and Explore First"
+date: 2023-02-15 21:09:00 -0500
+categories: bandits
+katex: True
+---
+# The Problem Setting
+
+This is a n-part series on bandit learning! This is mostly taken from
+"Introduction to Multi-armed Bandits" by Aleksandrs Slivkins with some
+adaptation.
+
+When I was a freshman in college during the COVID pandemic, I
+essentially had 2 dining halls to go to for dinner. One dining hall,
+sometimes had really good food and sometimes had really bad food. The
+other dining hall, generally just has food that was consistently decent,
+but never amazing. Since I was on a dining plan, I had to pick between
+these dining halls everyday, and I would regret my choice of dining hall
+a lot of times when I'd have friends text me that "the chicken was so
+good at the other dining hall today". How could I have chosen a dining
+hall everyday such that I minimized the total regret I experienced?
+
+This is the multi-armed bandit problem. The name of the problem comes
+from envisioning a gambler that has to choose between many
+identical-looking slot machines and end their casino run with the
+highest profit possible. In last 20 years, bandit learning problems
+became prominent because of its application to ad and news article
+clicks, pricing tactics, medicinal efficacy trials, and many other
+examples. For example, imagine a news website that generates revenue
+through user traffic on its site. When a user clicks on their site, they
+would like to make sure that the user clicks on the headlines the
+website offers, so they carefully curate the headlines. Over the span of
+many days or months, the news company would like to maximize the number
+of clicks they get given the headlines they place on the site.
+
+# Stochastic Bandits
+
+In the stochastic setting, all rewards are drawn iid from a distribution
+corresponding to the arm. Let us formalize this problem with notation:
+
+-   $$K$$ arms, $$T$$ rounds.
+
+-   $$r_{t}\sim\mathcal{D}_{a}$$, the reward of arm $$a_{t}$$ chosen at
+    round $$t$$ is iid from the distribution over arm $$a$$.
+
+-   $$\mu(a_{t})=\mathbb{E}[\mathcal{D}_{a}]$$ is the mean reward of arm
+    $$a_{t}$$.
+
+-   $$\mu^{*}=\max_{a\in A}\mu(a)$$ is the optimal mean reward.
+
+-   $$\Delta(a_{t})=\mu^{*}-\mu(a_{t})$$ is the gap between mean reward of
+    $$a_{t}$$ and the optimal mean reward.
+
+The stochastic bandit problem is given by
+
+-   $$K$$ arms, $$T$$ rounds.
+
+-   For every round $$t=1\ldots T$$,
+
+    -   Algorithm chooses an arm $$a_{t}$$.
+
+    -   Algorithm observes the true reward $$r(a_{t})$$
+
+The objective of this problem is to minimize regret (this definition is
+also known as pseudo-regret), i.e.
+
+$$R(T)=T\cdot\mu^{*}-\sum_{t=1}^{T}\mu(a_{t})$$
+
+however, since the latter term is a random variable, we want to minimize
+the expected regret.
+
+$$\mathbb{E}[R(T)]=T\cdot\mu^{*}-\sum_{t=1}^{T}\mathbb{E}[\mu(a_{t})]$$
+
+## Explore First Algorithm
+
+The explore-first algorithm is very simple: try every arm $$N$$ times,
+then choose the arm with the highest sampled mean reward.
+
+1.  Play every $$a\in A$$ $$N$$ times.
+
+2.  After $$NK$$ rounds, choose the arm with the highest
+    $$\hat{\mu}(a)=\frac{1}{N}\sum_{t:a_{t}=a}^{T}r_{t}$$.
+
+How can we analyze this? We can use [Hoeffding's inequality](https://en.wikipedia.org/wiki/Hoeffding%27s_inequality), which gives
+a strong concentration inequality for bounded random variables
+$$X_{1},\ldots,X_{n}$$. Fix some arm $$a$$. In this case, $$X_{i}$$
+corresponds to the reward of the $$i$$th draw of arm $$a$$. By definition we
+can find that 
+
+$$\begin{aligned}
+Pr[|\sum_{t:a_{t}=a}^{T}r_{t}-\mathbb{E}[\sum_{t:a_{t}=a}^{T}r_{t}]|>t] & \le2\exp(\frac{-2t^{2}}{\sum_{i=1}^{N}(1-0)^{2}})\\
+Pr[\frac{1}{N}|\sum_{t:a_{t}=a}^{T}r_{t}-\mathbb{E}[\sum_{t:a_{t}=a}^{T}r_{t}]|>\frac{t}{N}] & \le2\exp(\frac{-2(\frac{t}{N})^{2}}{\sum_{i=1}^{N}(\frac{1}{N}-0)^{2}})\\
+Pr[|\hat{\mu}(a)-\mu(a)|>h] & \le2\exp(\frac{-2h^{2}}{\sum_{i=1}^{N}(\frac{1}{N}-0)^{2}})\quad(h=t/N)
+\end{aligned}$$
+
+If we let $$h=\sqrt{\frac{2\log T}{N}}$$, then we get 
+
+$$\begin{aligned}
+Pr[|\hat{\mu}(a)-\mu(a)|>\sqrt{\frac{2\log T}{N}}] & \le2\exp(\frac{-2\cdot\frac{2\log T}{N}}{\sum_{i=1}^{N}(\frac{1}{N}-0)^{2}})\\
+ & \le2\exp(-4\log T)\\
+ & \le\frac{2}{T^{4}}
+\end{aligned}$$
+
+How can we obtain the regret? We first work this out for $$K=2$$. Consider
+the "clean event" i.e. the event that both arms have sampled means close
+to their true means.First, we know that we cannot accumulate more than
+$$N$$ regret over the first $$2N$$ rounds of exploration.
+
+Now consider the exploitation phase. This means that $$|\mu(a)-\hat{\mu}(a)|<h$$ for both arms. We have this event with
+$$\ge1-\frac{2}{T^{4}}$$ probability from the previous inequality under
+$$h=\sqrt{\frac{2\log T}{N}}$$. If we have any regret, it must be that we
+chose the arm $$a'$$ on the pretense that our sampled mean of $$a'$$ was
+higher than the sampled mean of $$a^{*}$$:
+
+$$\mu(a^{*})-h<\hat{\mu}(a^{*})<\hat{\mu}(a')<\mu(a')+h$$
+
+We can find that the regret per round is thus:
+
+$$\mu(a^{*})-\mu(a')<2h=\sqrt{\frac{8\log T}{N}}$$
+
+Thus, we accumulate 
+
+$$R(T)\le N+(T-2N)\cdot\sqrt{\frac{8\log T}{N}}$$
+
+We do not need to consider the bad event, since the probability is
+negligible. Thus the expected regret is bounded by essentially the same bound as the regret.
+The last step in our analysis is to pick $$N$$. $$N$$ should be chosen to
+minimize the sum, i.e. equalize the two terms, so we choose it to be
+$$N=T^{2/3}\log T$$.
+
+For $$K$$ arms, we have a $$KN$$ regret from the exploration phase, but the
+analysis of the exploitation phase is the same. All in all, we achieve:
+
+$$\mathbb{E}[R(T)]\le T^{2/3}\cdot O((K\log T)^{1/3})$$
+
+Next time: $$\epsilon$$-greedy and UCB style algorithms for the stochastic bandit problem.

@@ -4,15 +4,15 @@
 
 layout: home
 ---
-<img align="left" src="./resources/Stephan-500x500.jpg" width=200 height=200 style="margin:0px 5px">  
-Hi! I’m Stephan, a third-year BSE student in the University of Pennsylvania School of Engineering and Applied Sciences studying CIS and Mathematical Economics. I'm interested in machine learning, game theory, and economics. 
+<img align="right" src="./resources/Stephan-500x500.jpg" width=200 height=200 style="margin:0px 5px">  
+Hi! I’m Stephan, a third-year BSE student in the University of Pennsylvania School of Engineering and Applied Sciences studying Computer Science and Mathematical Economics. I'm interested in topics within machine learning, game theory, and economics.
 
-In my free time I dance and choreograph for [Pan-Asian Dance Troupe](https://www.youtube.com/@PanAsianDanceTroupe/videos). 
+In my free time I dance, choreograph, and film for [Pan-Asian Dance Troupe](https://www.youtube.com/@PanAsianDanceTroupe/videos), as well as compose and play instrumental music, primarily for the piano. 
 
 [[CV](./resources/CV - Stephan Xie.pdf)] / [[Music](https://www.youtube.com/playlist?list=PLL7ewZWw3-y07CWUQkstSa4rG5a3kQgFT)]
 
 
-## Publications
+# Publications
 
 [**ESPRESSO: Robust discovery and quantification of transcript isoforms from error-prone long-read RNA-seq data**](https://www.science.org/doi/10.1126/sciadv.abq5072)  
 _Science Advances, 2023_  
