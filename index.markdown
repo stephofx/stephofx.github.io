@@ -5,7 +5,7 @@
 layout: home
 ---
 <img align="right" src="./resources/Stephan-500x500.jpg" width=200 height=200 style="margin:0px 5px">  
-Hi! I’m Stephan, a third-year BSE student in the University of Pennsylvania [School of Engineering and Applied Sciences](https://www.seas.upenn.edu/) studying Computer Science and Mathematical Economics. I'm interested in topics within machine learning, game theory, and economics. I am fortunate to work with [Kevin He](https://www.kevinhe.net) and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/) on social learning, algorithmic fairness, and learning theory.
+Hi! I’m Stephan, a third-year BSE student in the University of Pennsylvania [School of Engineering and Applied Sciences](https://www.seas.upenn.edu/) studying Computer Science and Mathematical Economics. I'm interested in topics within machine learning, game theory, and economics. I am fortunate to work with [Kevin He](https://www.kevinhe.net) and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/) on social learning, algorithmic fairness, and learning theory. Previously, I was fortunate to work as a research assistant at the [Xing Lab](https://xinglab.org/), where I worked with Yi Xing and Robert Wang.
 
 In my free time I dance, choreograph, and film for [Pan-Asian Dance Troupe](https://www.youtube.com/@PanAsianDanceTroupe/videos), and I am a long-time wushu student and enthusiast. I also compose and play instrumental music (formerly with Penn Chamber), primarily for the piano. 
 
