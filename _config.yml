@@ -27,6 +27,7 @@ github_username:  stephofx
 
 # Build settings
 
+theme: minima
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
