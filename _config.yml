@@ -26,13 +26,17 @@ twitter_username: stephofx
 github_username:  stephofx
 
 # Build settings
-theme: minima
+
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 markdown: kramdown
 kramdown:
    math_engine: katex
+
+google-analytics: G-V9423Q9Q0P
 
 # Exclude from processing.
 # The following items will not be processed, by default.
