@@ -28,17 +28,19 @@ github_username:  stephofx
 # Build settings
 
 theme: minima
-remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 markdown: kramdown
 kramdown:
    math_engine: katex
 
-google-analytics: G-V9423Q9Q0P
-
+# Analytics
+analytics:
+  provider               : "google-gtag"
+  google:
+    measurement_id          : "G-V9423Q9Q0P"
+    anonymize_ip         : false
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
