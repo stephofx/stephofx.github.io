@@ -9,7 +9,7 @@ Hi! I’m Stephan, a third-year BSE student in the University of Pennsylvania [S
 
 In my free time I dance, choreograph, and film for [Pan-Asian Dance Troupe](https://www.youtube.com/@PanAsianDanceTroupe/videos), and I am a long-time wushu student and enthusiast. I also compose and play instrumental music (formerly with Penn Chamber), primarily for the piano. 
 
-[[CV](./resources/CV - Stephan Xie.pdf)] / [[Music](https://www.youtube.com/playlist?list=PLL7ewZWw3-y07CWUQkstSa4rG5a3kQgFT)]
+[[Music](https://www.youtube.com/playlist?list=PLL7ewZWw3-y07CWUQkstSa4rG5a3kQgFT)]
 
 
 # Publications
