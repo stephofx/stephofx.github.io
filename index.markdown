@@ -14,6 +14,10 @@ In my free time I dance, choreograph, and film for [Pan-Asian Dance Troupe](http
 
 # Publications
 
+[**High-Dimensional Prediction for Sequential Decision Making](https://arxiv.org/abs/2310.17651)
+_Manuscript, 2023_
+Georgy Noarov, Ramya Ramalingam, Aaron Roth, **Stephan Xie**
+
 [**ESPRESSO: Robust discovery and quantification of transcript isoforms from error-prone long-read RNA-seq data**](https://www.science.org/doi/10.1126/sciadv.abq5072)  
 _Science Advances, 2023_  
 Yuan Gao, Feng Wang, Robert Wang, Eric Kutschera, Yang Xu, **Stephan Xie**, Yuanyuan Wang, Kathryn E. Kadash-Edmondson, Lan Lin, Yi Xing
