@@ -14,7 +14,7 @@ In my free time I dance, choreograph, and film for [Pan-Asian Dance Troupe](http
 
 # Publications
 
-[**High-Dimensional Prediction for Sequential Decision Making](https://arxiv.org/abs/2310.17651)
+[**High-Dimensional Prediction for Sequential Decision Making**](https://arxiv.org/abs/2310.17651) 
 _Manuscript, 2023_
 Georgy Noarov, Ramya Ramalingam, Aaron Roth, **Stephan Xie**
 
