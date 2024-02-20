@@ -11,6 +11,9 @@ In my free time I dance, choreograph, and film for [Pan-Asian Dance Troupe](http
 
 [[Music](https://www.youtube.com/playlist?list=PLL7ewZWw3-y07CWUQkstSa4rG5a3kQgFT)]
 
+# News
+Feb 2024: Honored to receive the 2024 [Albert P. Godsho Engineering Award](https://www.cis.upenn.edu/news/awards/)!
+
 
 # Publications
 
@@ -21,4 +24,5 @@ Georgy Noarov, Ramya Ramalingam, Aaron Roth, **Stephan Xie**
 [**ESPRESSO: Robust discovery and quantification of transcript isoforms from error-prone long-read RNA-seq data**](https://www.science.org/doi/10.1126/sciadv.abq5072)  
 _Science Advances, 2023_  
 Yuan Gao, Feng Wang, Robert Wang, Eric Kutschera, Yang Xu, **Stephan Xie**, Yuanyuan Wang, Kathryn E. Kadash-Edmondson, Lan Lin, Yi Xing
+
 
