@@ -36,6 +36,7 @@ kramdown:
    math_engine: katex
 
 # Analytics
+google_analytics: G-V9423Q9Q0P
 analytics:
   provider               : "google-gtag"
   google:
