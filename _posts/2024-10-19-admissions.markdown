@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some notes about CS PhD Admissions"
+title: "Resources for CS PhD Admissions"
 date: 2024-10-19 12:34:00 -0500
 tags: admissions
 katex: True
@@ -25,10 +25,9 @@ of the application process, so I won't try to repeat all the points made in thos
 - [John Hewitt's blog post guide for undergrads thinking about PhDs](https://nlp.stanford.edu//~johnhew//undergrad-researchers.html)
 - [MIT EECS Faculty share what they look for in students](https://www.eecs.mit.edu/academics/graduate-programs/admission-process/what-faculty-members-are-looking-for-in-a-grad-school-application-essay/)
 
-### SOP Advice and Examples
+### Statement of Purpose (SOP) Advice and Examples
 - [CS SOP notion - a crowdsourced collection of PhD students' SOPs](https://cs-sop.notion.site/CS-PhD-Statements-of-Purpose-df39955313834889b7ac5411c37b958d)
 - [Eugenie Lai's Annotated Statement of Purpose example](https://eugenielai.github.io/posts/another-annotated-sop.html)
-
 
 ### Fellowships (e.g. NSF GRFP)
 - [MIT's NSF GRFP Research Proposal tutorial](https://mitcommlab.mit.edu/broad/commkit/nsf-research-proposal/)
