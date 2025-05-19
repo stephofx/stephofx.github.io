@@ -19,7 +19,7 @@ Feb 2024: Honored to receive the 2024 [Albert P. Godsho Engineering Award](https
 # Publications
 
 [**High-Dimensional Prediction for Sequential Decision Making**](https://arxiv.org/abs/2310.17651)\
-_Manuscript, 2023 (Oral Presentation at NeurIPS 2023 Optimization for Machine Learning Workshop)_\
+_International Conference On Machine Learning (ICML), 2025 (Spotlight)_\
 Georgy Noarov, Ramya Ramalingam, Aaron Roth, **Stephan Xie**
 
 [**ESPRESSO: Robust discovery and quantification of transcript isoforms from error-prone long-read RNA-seq data**](https://www.science.org/doi/10.1126/sciadv.abq5072)  
