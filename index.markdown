@@ -5,7 +5,7 @@
 layout: home
 ---
 <img align="right" src="./resources/Stephan-500x500.jpg" width=200 height=200 style="margin:0px 5px">  
-Hi! I’m Stephan, a first-year PhD student in the [Machine Learning Department](https://ml.cmu.edu) at Carnegie Mellon University advised by [Ameet Talwalkar](https://www.cs.cmu.edu/~atalwalk/), and supported by the NSF GRFP. I'm broadly interested in topics within machine learning and decision-making.
+Hi! I’m Stephan, a second-year PhD student in the [Machine Learning Department](https://ml.cmu.edu) at Carnegie Mellon University advised by [Ameet Talwalkar](https://www.cs.cmu.edu/~atalwalk/), and supported by the NSF GRFP. I'm broadly interested in topics within machine learning and decision-making.
 
 Previously, I did my undergrad at the University of Pennsylvania [School of Engineering and Applied Sciences](https://www.seas.upenn.edu/) studying Computer Science and Mathematical Economics.  At Penn I was fortunate to work with  [Aaron Roth](https://www.cis.upenn.edu/~aaroth/) on calibration and learning theory, [Kevin He](https://www.kevinhe.net) on social learning, as well as Yi Xing and Robert Wang at the [Xing Lab](https://xinglab.org/) on computational biology.
 
@@ -25,11 +25,11 @@ Ben Cohen, Emaad Khwaja, Youssef Doubli, Salahidine Lemaachi, Chris Lettieri, Ch
 
 [**High-Dimensional Prediction for Sequential Decision Making**](https://arxiv.org/abs/2310.17651)\
 _International Conference on Machine Learning (ICML), 2025_\
-**Oral, top 1%**\
+**Oral Presentation, top 1%**\
 Georgy Noarov, Ramya Ramalingam, Aaron Roth, **Stephan Xie**
 
 [**ESPRESSO: Robust discovery and quantification of transcript isoforms from error-prone long-read RNA-seq data**](https://www.science.org/doi/10.1126/sciadv.abq5072)  
-_Science Advances, 2023_
+_Science Advances, 2023_\
 Yuan Gao, Feng Wang, Robert Wang, Eric Kutschera, Yang Xu, **Stephan Xie**, Yuanyuan Wang, Kathryn E. Kadash-Edmondson, Lan Lin, Yi Xing
 
 
