@@ -14,7 +14,7 @@ In my free time in undergrad I danced, choreographed, and filmed for [Pan-Asian 
 
 
 # News
-Jun 2025: Started as a Research Intern at Datadog in NYC.
+Jun 2025: Started as a Research Intern at Datadog in NYC. \
 Aug 2024: Started my PhD at CMU! \
 Apr 2024: Awarded the [2024 NSF GRFP Fellowship](https://blog.cis.upenn.edu/penn-students-awarded-2024-nsf-grfp/)! \
 Feb 2024: Honored to receive the 2024 [Albert P. Godsho Engineering Award](https://www.cis.upenn.edu/news/awards/)!
