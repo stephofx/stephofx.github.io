@@ -14,18 +14,19 @@ In my free time in undergrad I danced, choreographed, and filmed for [Pan-Asian 
 
 
 # News
+Jun 2025: Started as a Research Intern at Datadog in NYC.
 Aug 2024: Started my PhD at CMU! \
 Apr 2024: Awarded the [2024 NSF GRFP Fellowship](https://blog.cis.upenn.edu/penn-students-awarded-2024-nsf-grfp/)! \
 Feb 2024: Honored to receive the 2024 [Albert P. Godsho Engineering Award](https://www.cis.upenn.edu/news/awards/)!
 
 # Publications
 [**This Time is Different: An Observability Perspective on Time Series Foundation Models**](https://arxiv.org/abs/2505.14766)\
-_Manuscript, 2025_\
+_ICML Workshop on Foundation Models for Structured Data, 2025_ (Oral Presentation)\
 Ben Cohen, Emaad Khwaja, Youssef Doubli, Salahidine Lemaachi, Chris Lettieri, Charles Masson, Hugo Miccinilli, Elise Ramé, Qiqi Ren, Afshin Rostamizadeh, Jean Ogier du Terrail, Anna-Monica Toon, Kan Wang, **Stephan Xie**, Zongzhe Xu, Viktoriya Zhukova, David Asker, Ameet Talwalkar, Othmane Abou-Amal
 
 [**High-Dimensional Prediction for Sequential Decision Making**](https://arxiv.org/abs/2310.17651)\
 _International Conference on Machine Learning (ICML), 2025_\
-**Oral Presentation, top 1%**\
+**Oral Presentation**\
 Georgy Noarov, Ramya Ramalingam, Aaron Roth, **Stephan Xie**
 
 [**ESPRESSO: Robust discovery and quantification of transcript isoforms from error-prone long-read RNA-seq data**](https://www.science.org/doi/10.1126/sciadv.abq5072)  
