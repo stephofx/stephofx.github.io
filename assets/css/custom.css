@@ -1,0 +1,387 @@
+/* ========================================
+   Custom Styles for stephofx.github.io
+   ======================================== */
+
+/* --- Color Palette --- */
+:root {
+  --color-bg: #fafafa;
+  --color-text: #2d2d2d;
+  --color-text-secondary: #5a5a5a;
+  --color-accent: #1a5276;
+  --color-accent-light: #2980b9;
+  --color-accent-hover: #0e3a54;
+  --color-border: #e0e0e0;
+  --color-border-light: #f0f0f0;
+  --color-card-bg: #ffffff;
+  --color-header-border: #1a5276;
+  --color-footer-bg: #f5f5f5;
+}
+
+/* --- Base Overrides --- */
+body {
+  font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* --- Typography --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+h1 { font-size: 1.8em; margin-top: 1.6em; margin-bottom: 0.6em; }
+h2 { font-size: 1.4em; margin-top: 1.4em; margin-bottom: 0.5em; }
+h3 { font-size: 1.2em; }
+
+.home h1:first-of-type {
+  margin-top: 1.2em;
+}
+
+/* --- Links --- */
+a {
+  color: var(--color-accent-light);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:visited {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* --- Profile Block (Image + Social Icons) --- */
+.profile-block {
+  float: right;
+  margin: 0 0 20px 30px;
+  text-align: center;
+}
+
+.profile-block .profile-photo {
+  float: none;
+  margin: 0 0 10px 0;
+  display: block;
+}
+
+/* --- Social Links (Top) --- */
+.social-links-top {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.social-links-top a {
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-links-top a:visited {
+  color: var(--color-text-secondary);
+}
+
+.social-links-top a:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* --- Hero Name on Homepage --- */
+.hero-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 2.8em;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 0.1em;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.05em;
+  color: var(--color-text-secondary);
+  margin-bottom: 1.5em;
+  font-weight: 400;
+}
+
+/* --- Header --- */
+.site-header {
+  border-top: 3px solid var(--color-header-border) !important;
+  border-bottom: 1px solid var(--color-border) !important;
+  background-color: var(--color-card-bg);
+}
+
+.site-nav .page-link {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary) !important;
+  transition: color 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  color: var(--color-accent) !important;
+  text-decoration: none;
+}
+
+/* --- Profile Image --- */
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  margin: 0 0 20px 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border: 3px solid var(--color-border-light);
+  transition: box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* --- Intro Text --- */
+.intro-text {
+  font-size: 1.02em;
+  line-height: 1.75;
+}
+
+.intro-text p {
+  margin-bottom: 1em;
+}
+
+/* --- Collapsible / Drop-down Panels --- */
+details {
+  margin-bottom: 0.8em;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-card-bg);
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+}
+
+details:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+details[open] {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+details summary {
+  padding: 12px 18px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  font-size: 1.15em;
+  color: var(--color-text);
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.2s ease;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: '\25B6';
+  font-size: 0.65em;
+  color: var(--color-text-secondary);
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+details summary:hover {
+  background-color: var(--color-border-light);
+}
+
+details .panel-content {
+  padding: 8px 18px 18px 18px;
+  border-top: 1px solid var(--color-border);
+  line-height: 1.75;
+}
+
+/* --- Section Headings (used as drop-down titles) --- */
+.section-heading {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+  color: var(--color-text);
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid var(--color-header-border);
+  display: inline-block;
+}
+
+/* --- News Items --- */
+.news-list {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+.news-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--color-border-light);
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.news-list li:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  font-weight: 600;
+  font-size: 0.9em;
+  color: var(--color-accent);
+  white-space: nowrap;
+  min-width: 80px;
+}
+
+.news-text {
+  color: var(--color-text);
+}
+
+/* --- Publication Items --- */
+.pub-item {
+  margin-bottom: 1.2em;
+  padding: 14px 18px;
+  border-left: 3px solid var(--color-accent-light);
+  background: var(--color-card-bg);
+  border-radius: 0 6px 6px 0;
+}
+
+.pub-item .pub-title {
+  font-weight: 600;
+  font-size: 1.02em;
+  margin-bottom: 4px;
+}
+
+.pub-item .pub-title a {
+  color: var(--color-accent-light);
+}
+
+.pub-item .pub-title a:hover {
+  color: var(--color-accent-hover);
+}
+
+.pub-item .pub-venue {
+  font-style: italic;
+  color: var(--color-text-secondary);
+  font-size: 0.95em;
+  margin-bottom: 2px;
+}
+
+.pub-item .pub-note {
+  font-weight: 600;
+  color: var(--color-accent);
+  font-size: 0.9em;
+}
+
+.pub-item .pub-authors {
+  font-size: 0.92em;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+/* --- Footer --- */
+.site-footer {
+  background-color: var(--color-footer-bg) !important;
+  border-top: 1px solid var(--color-border) !important;
+}
+
+.footer-heading {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-weight: 500 !important;
+  color: var(--color-text) !important;
+}
+
+.footer-col-wrapper {
+  color: var(--color-text-secondary) !important;
+}
+
+/* --- Page Content Spacing --- */
+.page-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* --- Code Block Styling --- */
+pre, code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  background-color: #f6f8fa;
+  border-color: var(--color-border);
+}
+
+/* --- Blockquote --- */
+blockquote {
+  border-left: 4px solid var(--color-accent-light);
+  color: var(--color-text-secondary);
+  font-style: italic;
+  padding: 10px 20px;
+  background: var(--color-border-light);
+  border-radius: 0 4px 4px 0;
+}
+
+/* --- Smooth Scrolling --- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* --- Selection Color --- */
+::selection {
+  background: rgba(41, 128, 185, 0.2);
+}
+
+/* --- Responsive Adjustments --- */
+@media screen and (max-width: 600px) {
+  .hero-name {
+    font-size: 2em;
+  }
+
+  .profile-block {
+    float: none;
+    margin: 0 auto 20px auto;
+    width: fit-content;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .news-list li {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .news-date {
+    min-width: auto;
+  }
+
+  .pub-item {
+    padding: 12px 14px;
+  }
+}
