@@ -27,7 +27,9 @@ layout: home
 
 <div class="intro-text" markdown="1">
 
-Hi! I'm Stephan, a second-year PhD student in the [Machine Learning Department](https://ml.cmu.edu) at Carnegie Mellon University advised by [Ameet Talwalkar](https://www.cs.cmu.edu/~atalwalk/), and supported by the NSF GRFP. I'm broadly interested in topics within multimodality, agents, decision-making, and translational impact of ML.
+Hi! I'm Stephan, a second-year PhD student in the [Machine Learning Department](https://ml.cmu.edu) at Carnegie Mellon University advised by [Ameet Talwalkar](https://www.cs.cmu.edu/~atalwalk/), and supported by the NSF GRFP. I also collaborate with [Datadog AI Research](https://www.datadoghq.com/blog/ai/) on multimodal modeling and software agents. 
+
+I'm broadly interested in topics within agents, multimodality, reliable decision-making, and translational impact of ML.
 
 Previously, I did my undergrad at the University of Pennsylvania [School of Engineering and Applied Sciences](https://www.seas.upenn.edu/) studying Computer Science and Mathematical Economics. At Penn I was fortunate to work with [Aaron Roth](https://www.cis.upenn.edu/~aaroth/) on calibration and learning theory, [Kevin He](https://www.kevinhe.net) on social learning, as well as Yi Xing and Robert Wang at the [Xing Lab](https://xinglab.org/) on computational biology.
 
@@ -54,6 +56,12 @@ In my free time in undergrad I danced, choreographed, and filmed for [Pan-Asian 
 </ul>
 
 <h2 class="section-heading">Publications</h2>
+<div class="pub-item">
+  <div class="pub-title"><a href="https://openreview.net/pdf?id=C4AXJvsgT6">ARFBench: Benchmarking Multimodal Time Series Reasoning for Software Incident Response</a></div>
+  <div class="pub-venue">International Conference on Learning Representations (ICLR) Workshop on Time Series in the Age of Large Models (TSALM), 2026 </div>
+  <div class="pub-note">Spotlight Presentation</div>
+  <div class="pub-authors"><strong>Stephan Xie</strong>, Ben Cohen, Mononito Goswami, Junhong Shen, Emaad Khwaja, Chenghao Liu, David Asker, Othmane Abou-Amal, Ameet Talwalkar</div>
+</div>
 
 <div class="pub-item">
   <div class="pub-title"><a href="https://arxiv.org/abs/2505.14766">This Time is Different: An Observability Perspective on Time Series Foundation Models</a></div>
