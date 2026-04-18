@@ -83,6 +83,7 @@ In my free time in undergrad I danced, choreographed, and filmed for [Pan-Asian 
 </div>
 
 <h2 class="section-heading">Teaching</h2>
+I've been a teaching assistant for the following classes:
 <ul>
   <li><a href="https://andrejristeski.github.io/10708S26/">10-708 Probabilistic Graphical Models (Spring 2026)</a></li>
 </ul>
