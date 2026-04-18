@@ -81,3 +81,8 @@ In my free time in undergrad I danced, choreographed, and filmed for [Pan-Asian 
   <div class="pub-venue">Science Advances, 2023</div>
   <div class="pub-authors">Yuan Gao, Feng Wang, Robert Wang, Eric Kutschera, Yang Xu, <strong>Stephan Xie</strong>, Yuanyuan Wang, Kathryn E. Kadash-Edmondson, Lan Lin, Yi Xing</div>
 </div>
+
+<h2 class="section-heading">Teaching</h2>
+<ul>
+  <li><a href="https://andrejristeski.github.io/10708S26/">10-708 Probabilistic Graphical Models (Spring 2026)</a></li>
+</ul>
