@@ -57,8 +57,8 @@ In my free time in undergrad I danced, choreographed, and filmed for [Pan-Asian 
 
 <h2 class="section-heading">Publications</h2>
 <div class="pub-item">
-  <div class="pub-title"><a href="https://openreview.net/pdf?id=C4AXJvsgT6">ARFBench: Benchmarking Multimodal Time Series Reasoning for Software Incident Response</a></div>
-  <div class="pub-venue">International Conference on Learning Representations (ICLR) Workshop on Time Series in the Age of Large Models (TSALM), 2026 </div>
+  <div class="pub-title"><a href="https://arxiv.org/abs/2604.21199">ARFBench: Benchmarking Multimodal Time Series Reasoning for Software Incident Response</a></div>
+  <div class="pub-venue">International Conference on Learning Representations (ICLR) Workshop on Time Series in the Age of Large Models (TSALM), 2026 &middot; <a href="https://www.datadoghq.com/blog/ai/introducing-arfbench/">[Blog Post]</a></div>
   <div class="pub-note">Spotlight Presentation</div>
   <div class="pub-authors"><strong>Stephan Xie</strong>, Ben Cohen, Mononito Goswami, Junhong Shen, Emaad Khwaja, Chenghao Liu, David Asker, Othmane Abou-Amal, Ameet Talwalkar</div>
 </div>
