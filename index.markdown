@@ -27,9 +27,9 @@ layout: home
 
 <div class="intro-text" markdown="1">
 
-Hi! I'm Stephan, a second-year PhD student in the [Machine Learning Department](https://ml.cmu.edu) at Carnegie Mellon University advised by [Ameet Talwalkar](https://www.cs.cmu.edu/~atalwalk/), and supported by the NSF GRFP. I also collaborate with [Datadog AI Research](https://www.datadoghq.com/blog/ai/) on multimodal modeling and software agents. 
+Hi! I'm Stephan, a second-year PhD student in the [Machine Learning Department](https://ml.cmu.edu) at Carnegie Mellon University advised by [Ameet Talwalkar](https://www.cs.cmu.edu/~atalwalk/), and supported by the NSF GRFP. I also collaborate with [Datadog AI Research](https://www.datadoghq.com/blog/ai/) on multimodal modeling and reinforcement learning. 
 
-I'm broadly interested in topics within agents, multimodality, reliable decision-making, and translational impact of ML.
+I'm broadly interested in topics within agents, multimodality, RL, reliable decision-making, and translational impact of ML.
 
 Previously, I did my undergrad at the University of Pennsylvania [School of Engineering and Applied Sciences](https://www.seas.upenn.edu/) studying Computer Science and Mathematical Economics. At Penn I was fortunate to work with [Aaron Roth](https://www.cis.upenn.edu/~aaroth/) on calibration and learning theory, [Kevin He](https://www.kevinhe.net) on social learning, as well as Yi Xing and Robert Wang at the [Xing Lab](https://xinglab.org/) on computational biology.
 
