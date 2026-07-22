@@ -29,31 +29,9 @@ layout: home
 
 Hi! I'm Stephan, a second-year PhD student in the [Machine Learning Department](https://ml.cmu.edu) at Carnegie Mellon University advised by [Ameet Talwalkar](https://www.cs.cmu.edu/~atalwalk/), and supported by the NSF GRFP. I also collaborate with [Datadog AI Research](https://www.datadoghq.com/blog/ai/) on multimodal modeling and reinforcement learning. 
 
-I'm broadly interested in topics within agents, multimodality, RL, reliable decision-making, and translational impact of ML.
+I'm broadly interested in topics including reinforcement learning, reliable decision-making, and the translational impact of AI.
 
 Previously, I did my undergrad at the University of Pennsylvania [School of Engineering and Applied Sciences](https://www.seas.upenn.edu/) studying Computer Science and Mathematical Economics. At Penn I was fortunate to work with [Aaron Roth](https://www.cis.upenn.edu/~aaroth/) on calibration and learning theory, [Kevin He](https://www.kevinhe.net) on social learning, as well as Yi Xing and Robert Wang at the [Xing Lab](https://xinglab.org/) on computational biology.
-
-</div>
-
-<div style="clear: both;"></div>
-
-<details>
-<summary>Extracurriculars</summary>
-<div class="panel-content" markdown="1">
-
-In my free time in undergrad I danced, choreographed, and filmed for [Pan-Asian Dance Troupe](https://www.youtube.com/@PanAsianDanceTroupe/videos), and I am a long-time wushu student and enthusiast. I also [compose](https://musescore.com/user/30731574) and play instrumental [music](https://www.youtube.com/playlist?list=PLL7ewZWw3-y07CWUQkstSa4rG5a3kQgFT) (formerly with Penn Chamber), primarily for the piano.
-
-</div>
-</details>
-
-<h2 class="section-heading">News</h2>
-
-<ul class="news-list">
-  <li><span class="news-date">Jun 2025</span><span class="news-text">Started as a Research Intern at Datadog in NYC.</span></li>
-  <li><span class="news-date">Aug 2024</span><span class="news-text">Started my PhD at CMU!</span></li>
-  <li><span class="news-date">Apr 2024</span><span class="news-text">Awarded the <a href="https://blog.cis.upenn.edu/penn-students-awarded-2024-nsf-grfp/">2024 NSF GRFP Fellowship</a>!</span></li>
-  <li><span class="news-date">Feb 2024</span><span class="news-text">Honored to receive the 2024 <a href="https://www.cis.upenn.edu/news/awards/">Albert P. Godsho Engineering Award</a>!</span></li>
-</ul>
 
 <h2 class="section-heading">Publications</h2>
 <div class="pub-item">
