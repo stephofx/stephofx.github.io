@@ -27,11 +27,13 @@ layout: home
 
 <div class="intro-text" markdown="1">
 
-Hi! I'm Stephan, a second-year PhD student in the [Machine Learning Department](https://ml.cmu.edu) at Carnegie Mellon University advised by [Ameet Talwalkar](https://www.cs.cmu.edu/~atalwalk/), and supported by the NSF GRFP. I also collaborate with [Datadog AI Research](https://www.datadoghq.com/blog/ai/) on multimodal modeling and reinforcement learning. 
+Hi! I'm Stephan, a third-year PhD student in the [Machine Learning Department](https://ml.cmu.edu) at Carnegie Mellon University advised by [Ameet Talwalkar](https://www.cs.cmu.edu/~atalwalk/), and supported by the NSF GRFP. I also collaborate with [Datadog AI Research](https://www.datadoghq.com/blog/ai/) on multimodal modeling and reinforcement learning. 
 
 I'm broadly interested in topics including reinforcement learning, reliable decision-making, and the translational impact of AI.
 
 Previously, I did my undergrad at the University of Pennsylvania [School of Engineering and Applied Sciences](https://www.seas.upenn.edu/) studying Computer Science and Mathematical Economics. At Penn I was fortunate to work with [Aaron Roth](https://www.cis.upenn.edu/~aaroth/) on calibration and learning theory, [Kevin He](https://www.kevinhe.net) on social learning, as well as Yi Xing and Robert Wang at the [Xing Lab](https://xinglab.org/) on computational biology.
+
+This semester I am running the [CMU RL and Agents Seminar](https://ljang0.github.io/cmu-agents-seminar/). Please reach out if you would like to give a talk!
 
 <h2 class="section-heading">Publications</h2>
 <div class="pub-item">
@@ -64,4 +66,5 @@ Previously, I did my undergrad at the University of Pennsylvania [School of Engi
 I've been a teaching assistant for the following classes:
 <ul>
   <li><a href="https://andrejristeski.github.io/10708S26/">10-708 Probabilistic Graphical Models (Spring 2026)</a></li>
+  <li><a href="https://dlsyscourse.org/">10-714 Deep Learning Systems</a></li>
 </ul>
